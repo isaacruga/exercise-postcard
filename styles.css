@@ -1,0 +1,71 @@
+body {
+	background: black;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+.postcard {
+	background: white;
+	height: 300px;
+	width: 400px;
+	margin: auto;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.logo {
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+h1 {
+	width: 350px;
+	margin: 0%;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.postcard-body {
+	display: flex;
+	padding-top: 10px;
+}
+
+.body-left {
+	padding: 0 10px 0 10px;
+}
+
+#ptop {
+	margin-top: 0%;
+}
+
+.body-right {
+	padding: 0 15px 0 0px;
+}
+
+#sname,
+#semail,
+#scomment {
+	border-bottom-color: grey;
+	border-bottom-width: 1px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	font-size: 14px;
+}
+
+#semail,
+#scomment {
+	margin-top: 10px;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: #c0c0c0;
+	padding: 5px;
+}
